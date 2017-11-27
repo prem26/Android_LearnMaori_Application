@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    tools:context="com.example.nethanjan.projectuiux.MainActivity">
+
+
+    <android.support.v7.widget.CardView
+        style="@style/customCardView"
+        android:id="@+id/numbercard"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/icon_numbers"
+                android:layout_weight="3"/>
+
+            <TextView
+                style="@style/CustomTextViewTopic"
+                android:text="Numbers" />
+
+            <TextView
+                style="@style/CustomTextViewDescription"
+                android:text="Practice how numbers 1 - 10 are pronounced in Maori" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/customCardView"
+        android:id="@+id/familycard"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/icon_family"
+                android:layout_weight="3"/>
+
+            <TextView
+                style="@style/CustomTextViewTopic"
+                android:text="Family" />
+
+            <TextView
+                style="@style/CustomTextViewDescription"
+                android:text="Practice and learn immediate whanau" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/customCardView"
+        android:id="@+id/colorcard"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/icon_colors"
+                android:layout_weight="3"/>
+
+            <TextView
+                style="@style/CustomTextViewTopic"
+                android:text="Colours" />
+
+            <TextView
+                style="@style/CustomTextViewDescription"
+                android:text="A collection of Maori colours and their pronunciations" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
